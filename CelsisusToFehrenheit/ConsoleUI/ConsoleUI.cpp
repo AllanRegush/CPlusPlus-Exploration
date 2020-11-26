@@ -10,7 +10,7 @@ int main()
     while (fahr <= upper)
     {
         celsius = (5.0 / 9.0) * (fahr - 32.0);
-        std::printf("%6.1f %6.1f\n", celsius, fahr);
+        std::printf("%6.1f    %3.1f\n", celsius, fahr);
         fahr = fahr + step;
     }
 }
