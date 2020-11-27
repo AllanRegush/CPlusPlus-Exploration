@@ -16,12 +16,12 @@ Win32MainWindowCallback(HWND Window, UINT Message, WPARAM WParam, LPARAM LParam)
         } break;
         case WM_PAINT:
         {
-	        RECT Rect;
+	    RECT Rect;
             PAINTSTRUCT Paint;
             HDC DeviceContext = BeginPaint(Window, &Paint);
-	        GetClientRect(Window, &Rect);
-	        DrawTextA(DeviceContext, "Hello, World", -1, &Rect,
-		              DT_SINGLELINE | DT_CENTER | DT_VCENTER);
+	    GetClientRect(Window, &Rect);
+	    DrawTextA(DeviceContext, "Hello, World", -1, &Rect,
+		       DT_SINGLELINE | DT_CENTER | DT_VCENTER);
             EndPaint(Window, &Paint);
         } break;
         default:
@@ -47,9 +47,9 @@ WinMain(HINSTANCE Instance, HINSTANCE PrevInstance, LPSTR CommandLine, int ShowC
 					     WindowClass.lpszClassName,
 					     "HelloApp",
 				 	     WS_OVERLAPPEDWINDOW | WS_VISIBLE,
-	         			 CW_USEDEFAULT,
+	         			     CW_USEDEFAULT,
 					     CW_USEDEFAULT,
-				      	 CW_USEDEFAULT,
+				      	     CW_USEDEFAULT,
 					     CW_USEDEFAULT,
 					     0,
 					     0,
