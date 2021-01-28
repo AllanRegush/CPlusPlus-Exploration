@@ -13,4 +13,4 @@ C++ Exploration / Learning Path
 - [x] [Unix Web Server](UnixWebServer)
 
 #### Neural Networks
-- [] Perceptron
+- [ ] Perceptron
