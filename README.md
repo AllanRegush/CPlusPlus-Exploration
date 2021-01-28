@@ -10,7 +10,7 @@ C++ Exploration / Learning Path
 #### Networking
 
 - [x] [Unix Web Client](UnixWebClient)
-- [x] [Unix Web Server](UnixWebClient)
+- [x] [Unix Web Server](UnixWebServer)
 
 #### Neural Networks
 - [] Perceptron
