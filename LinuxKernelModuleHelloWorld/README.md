@@ -9,10 +9,10 @@ Such as `zypper in kernel-default-devel`
 #### To run
 `sudo insmod hello.ko`
 
-#### To check if it worked
+#### Checking your work
 
-check if loaded `lsmod`
-should see `hello`
+To see if module loaded run `lsmod`
+should see `hello` in list of modules
 ```
 $ lsmod | grep hello
 hello                  16384  
