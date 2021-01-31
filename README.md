@@ -13,7 +13,7 @@ C++ Exploration / Learning Path
 - [x] [Unix Web Server](UnixWebServer)
 
 #### Neural Networks
-- [ ] Perceptron
+- [x] [Perceptron](Perceptron)
 
 #### Linux Kernel Driver
 - [x] [Hello World](LinuxKernelModuleHelloWorld)
